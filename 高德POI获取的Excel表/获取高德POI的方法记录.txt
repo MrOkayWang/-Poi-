@@ -1,0 +1,18 @@
+蒋元甲 18/12/20
+通过Phthon
+1.下载Python，勾选“****to PATH ”
+2.打开“gaodePOI.py”文件（右键，EDIT with IDLE）
+3.注册成为高德开发者，并申请高德密钥。很简单！
+4.复制Key码，到（第二步打开的）py文件中，文件里注释得很清楚，哪里应该填key，一看就懂。
+5.改filename这一行的路径。
+6.run！ F5
+-------第一次尝试：弹出error，没有xlwt 包。
+          解决方法：在cmd窗口输入pip install xlwt
+          先显示Collecting，然后显示进度，最后successfully 成功
+-------第二次尝试：弹出error，没有xlrd
+          解决方法：和第一次尝试差不多，输入 pip install xlrd ,等待安装成功
+-------第三次尝试：弹出error，没有xlutils，解决方法和之前一样，不再赘述。
+7.写入成功
+8.修改地区和关键词。里面写的很清楚！
+9.xls换个名字，继续运行！
+OK！
